@@ -14,7 +14,7 @@ const featuredProjects = projects.slice(0, 3)
           :use-original-chars-only="false" animate-on="hover" class-name="text-7xl justify-center text-blue-500"
           encrypted-class-name="text-7xl justify-center text-red-500" />
 
-        <DecryptedText text="shixiayihana" :speed="50" :max-iterations="10" :sequential="false" reveal-direction="start"
+        <DecryptedText text="Tang Wenlin" :speed="50" :max-iterations="10" :sequential="false" reveal-direction="start"
           :use-original-chars-only="false" animate-on="hover" class-name="text-7xl text-blue-500"
           encrypted-class-name="text-7xl text-red-500" />
 
