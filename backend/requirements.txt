@@ -1,0 +1,3 @@
+-r web/requirements.txt
+-r crawler/requirements.txt
+python-dotenv==1.0.1
