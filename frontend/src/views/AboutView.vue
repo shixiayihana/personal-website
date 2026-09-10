@@ -7,7 +7,7 @@ import { siteProfile } from '../data/site'
     <!-- <section class="panel bg-soft" aria-labelledby="about-title"> -->
       <h1 class="text-3xl font-bold mb-4">关于我</h1>
       <p>
-        你好，我是一名前端开发者，关注前端体验设计与工程实现，擅长把设计稿转成高质量、可维护的页面。
+        你好，我是一名前端开发者，关注前端体验设计与工程实现，注重交互细节与代码可维护性。目前正在寻找前端相关实习机会，希望在实际项目中持续打磨技术。
       </p>
       <!-- <p>
         我坚持移动端优先与渐进增强，重视性能、可访问性和长期维护成本。
@@ -16,7 +16,7 @@ import { siteProfile } from '../data/site'
 
     <!-- <section class="panel panel-contrast" aria-labelledby="contact-title"> -->
       <h1 class="text-3xl font-bold mt-16 mb-4">联系我</h1>
-      <!-- <p>QQ邮箱：{{ siteProfile.email }}</p> -->
+      <p>QQ邮箱：{{ siteProfile.email }}</p>
       <!-- <p>哔哩哔哩：<a :href="siteProfile.bilibili" target="_blank" rel="noopener noreferrer">{{ siteProfile.bilibili }}</a></p> -->
       <p>GitHub：<a :href="siteProfile.github" target="_blank" rel="noopener noreferrer">{{ siteProfile.github }}</a></p>
     <!-- </section> -->

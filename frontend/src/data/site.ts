@@ -13,7 +13,7 @@ export const siteProfile = {
   title: '一个简单有趣的个人网站',
   subtitle: 'Interesting Personal Website',
   intro: '基于Vue3，Ts，TailwindCSS构建',
-  email: 'test@qq.com',
+  email: '2638645379@qq.com',
   bilibili: 'https://space.bilibili.com/476404207',
   github: 'https://github.com/shixiayihana',
 }
