@@ -18,7 +18,8 @@ def get_db_connection() -> Connection:
         password=settings.db_password,
         database=settings.db_name,
         charset="utf8mb4",
-        autocommit=True,
+        # crawler writes index_info and index_valuation in one transaction.
+        autocommit=False,
         connect_timeout=10,
         cursorclass=pymysql.cursors.DictCursor,
     )

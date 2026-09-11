@@ -11,7 +11,9 @@
 
 ## 本地启动 API
 
-在 `backend` 目录创建 `.env`，填写对应数据库配置。程序会自动读取该文件；生产环境不要把真实密码提交到 Git。然后执行：
+在 `backend` 目录创建 `.env`，填写对应数据库配置。程序会自动读取该文件；生产环境不要把真实密码提交到 Git。服务器部署请参阅 [宝塔计划任务部署指南.md](宝塔计划任务部署指南.md)。
+
+然后执行：
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
