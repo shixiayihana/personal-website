@@ -300,15 +300,41 @@ button:hover {
 
 @media (max-width: 640px) {
   .detail-page {
-    padding-top: 20px;
+    padding-top: 16px;
   }
 
   .page-heading {
     display: block;
+    margin-bottom: 22px;
+  }
+
+  h1 {
+    font-size: 2.15rem;
+    line-height: 1.25;
   }
 
   .updated-at {
     margin-top: 12px;
+    font-size: 0.82rem;
+  }
+
+  .valuation-card {
+    padding: 16px;
+  }
+
+  .card-heading {
+    align-items: flex-start;
+    gap: 8px;
+    padding-bottom: 14px;
+  }
+
+  .card-heading h2 {
+    font-size: 1.12rem;
+  }
+
+  .metric-list {
+    gap: 18px;
+    padding-top: 18px;
   }
 }
 </style>

@@ -25,6 +25,7 @@
 }
 
 .brand {
+  flex-shrink: 0;
   margin: 0;
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.7rem;
@@ -40,6 +41,8 @@ nav {
 }
 
 nav a {
+  display: inline-block;
+  padding: 5px 0;
   color: #cbd5e1;
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -54,14 +57,21 @@ nav a.router-link-active {
 
 @media (max-width: 640px) {
   .topbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 12px;
   }
 
   nav {
-    gap: 12px;
-    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .brand {
+    font-size: 1.45rem;
+  }
+
+  nav a {
+    font-size: 0.9rem;
   }
 }
 </style>

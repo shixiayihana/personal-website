@@ -5,6 +5,11 @@
     <section id="main-content">
       <RouterView />
     </section>
+    <div class="music-player" aria-label="背景音乐播放器">
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
+        src="//music.163.com/outchain/player?type=2&id=1999180&auto=1&height=66" title="背景音乐播放器">
+      </iframe>
+    </div>
     <footer class="site-footer">
       <p>© 2026 Tang Studio.</p>
     </footer>
@@ -71,6 +76,11 @@ body,
   min-height: 100%;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background:
     radial-gradient(circle at 10% 10%, rgba(24, 160, 88, 0.08), transparent 28%),
@@ -114,9 +124,29 @@ body {
   color: var(--text-main);
 }
 
+.music-player {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 9999;
+  width: min(330px, calc(100vw - 20px));
+  height: 86px;
+}
+
+.music-player iframe {
+  display: block;
+  width: 100%;
+  height: 86px;
+  border: 0;
+}
+
 @media (max-width: 640px) {
   .site-shell {
-    padding: 14px 14px 36px;
+    padding: 12px 12px 32px;
+  }
+
+  .music-player {
+    display: none;
   }
 }
 </style>
