@@ -2,7 +2,7 @@
 set -Eeuo pipefail
 
 cd /www/wwwroot/www.11251236.xyz/personal-website
-git pull --ff-only
+git pull https://gitee.com/tangwenlin/personal-website.git main --ff-only
 
 cd frontend
 npm run build
