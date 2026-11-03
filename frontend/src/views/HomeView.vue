@@ -22,7 +22,6 @@ const featuredProjects = projects.slice(0, 3)
         direction="left" :interactive="true" />
     </div>
 
-
     <section class="hero" aria-labelledby="home-title">
       <p class="hero-kicker">{{ siteProfile.subtitle }}</p>
       <h1 id="home-title">{{ siteProfile.title }}</h1>
